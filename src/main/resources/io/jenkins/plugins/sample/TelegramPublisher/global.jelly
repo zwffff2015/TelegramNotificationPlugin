@@ -1,0 +1,22 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <f:section title="${%ConfigTitle}">
+    <f:entry title="${%ShowLog}" field="showLog"
+          description="${%ShowLogDesc}">
+          <f:checkbox />
+        </f:entry>
+    <f:entry title="${%BotUserName}" field="botUserName"
+      description="${%BotUserNameDesc}">
+      <f:textbox />
+    </f:entry>
+    <f:entry title="${%BotToken}" field="botToken"
+          description="${%BotTokenDesc}">
+          <f:textbox />
+     </f:entry>
+     <f:advanced>
+         <f:entry title="${%GlobalNotifyUsers}" field="globalNotifyUsers"
+                   description="${%GlobalNotifyUsersDesc}">
+                   <f:textbox />
+          </f:entry>
+      </f:advanced>
+  </f:section>
+</j:jelly>

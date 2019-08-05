@@ -1,0 +1,4 @@
+<?jelly escape-by-default='true'?>
+<div>
+    This plugin allows you to send messages from Jenkins jobs to Telegram chat. Support personal message and group message.
+</div>
